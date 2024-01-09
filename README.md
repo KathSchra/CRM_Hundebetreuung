@@ -20,7 +20,7 @@ Trailer-Video https://www.youtube.com/watch?v=sdRVOgtNGJM
 
 
 ## Kunden verwalten
-![kunden](https://github.com/KathSchra/Kundensystem_Hundeschule/assets/132889946/bd242fb2-0a5c-4aae-9478-c7aebb8d5cdc)
+![kunden-1](https://github.com/KathSchra/CRM_Hundebetreuung/assets/132889946/344cf68b-3623-42e4-b55a-5f912db944c6)
 
 Im Bereich "Kunden" können alle gängigen **Daten der Besitzer angelegt, geändert und gelöscht** werden.
 Jeder Kunde bekommt automatisch eine **fortlaufende Kundennummer** zugewiesen, die nicht über das Frontend geändert werden kann.
@@ -30,13 +30,13 @@ Wird ein Kunde gelöscht, werden zeitgleich alle zugehörigen Hunde ebenfalls ge
 
 
 ## Hunde verwalten
-![hunde](https://github.com/KathSchra/Kundensystem_Hundeschule/assets/132889946/f76a9120-31b1-4e7e-80d0-7872f48a6580)
+![hunde](https://github.com/KathSchra/CRM_Hundebetreuung/assets/132889946/d08e0cae-49d4-44d7-a48f-1926f8f8161f)
 
 Im Bereich "Hunde" kann man sich einen schnellen **Überblick über alle angemeldeten Hunde** verschaffen und deren **Daten ändern oder löschen**. Die Daten des jeweiligen Besitzers werden ebenfalls angezeigt, können aber nicht bearbeitet werden.
 
 
 ## Betreuung planen
-![betreuung](https://github.com/KathSchra/Kundensystem_Hundeschule/assets/132889946/c51bfe6e-1ce4-4728-b88d-d3786b1e022d)
+![betreuung](https://github.com/KathSchra/CRM_Hundebetreuung/assets/132889946/58d07e48-4528-4dc1-b000-5decf2044ef3)
 
 Im Bereich "Betreuung" werden alle Hunde, die einen **Aufenthaltszeitraum** zugewiesen bekommen haben, in **chronologischer Reihenfolge** angezeigt. So kann man schnell erfassen **welcher Hund wann zur Betreuung** kommt. <br>
 Außerdem kann der Aufenthaltszeitraum eines Hundes geändert werden.
