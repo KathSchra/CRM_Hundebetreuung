@@ -1,0 +1,13 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import SolidCustomer from "@components/solidCustomer"
+---
+
+<Layout title="Kunden">
+  <Container>
+    <div class="grid md:grid-cols-1 " >
+        <SolidCustomer client:load/>
+    <div>
+  </Container>
+</Layout>

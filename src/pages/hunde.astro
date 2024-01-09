@@ -1,0 +1,13 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import SolidDogs from "@components/solidDogs"
+---
+
+<Layout title="Hunde">
+  <Container>
+    <div class="grid md:grid-cols-1 ">
+        <SolidDogs client:load/>
+    <div>
+  </Container>
+</Layout>

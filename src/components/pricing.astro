@@ -1,0 +1,24 @@
+---
+
+const { plan } = Astro.props;
+---
+
+<div>
+  <div class="flex flex-col w-full order-first lg:order-none border-2 border-info border-opacity-50 py-5 px-6 rounded-md">
+    <div class="text-center">
+      <h4 class=" mt-4 text-lg font-medium">{plan.name}</h4>
+      <p class="mt-2 text-2xl font-bold md:text-4xl">
+        {plan.price}
+      </p>
+    </div>
+    <ul class="list-disc list-inside mt-8 mb-8 grid justify-center gap-y-2 "> 
+      {
+        plan.features.map((item) => (
+          <li class="flex items-start gap-3">
+           • {item}
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,49 @@
+---
+import Container from "@components/container.astro";
+const menuitems = [
+
+{
+    title: "Kunden",
+    path: "/kunden",
+  },
+
+{
+    title: "Hunde",
+    path: "/hunde",
+  },
+
+  {
+    title: "Betreuung",
+    path: "/timetable",
+  },
+  
+  {
+    title: "Preise",
+    path: "/preise",
+  },
+
+];
+---
+
+<Container>
+  <header class="flex flex-col lg:flex-row justify-between items-center border-b-2 border-primary mb-8 py-5 ">
+      <div class="flex w-full lg:w-auto items-center justify-between">
+        <a class = {Astro.url.pathname ===  "/" ? " font-bold underline decoration-primary decoration-2 underline-offset-4 hover:text-primary" : " font-bold hover:text-primary"}
+        href="/" 
+          ><span >Home</span>
+        </a>
+      </div>
+        <ul class="flex flex-col lg:flex-row lg:gap-3">
+          {
+            menuitems.map((item) => (             
+                  <li>
+                    <a
+                    class={Astro.url.pathname ===  item.path ? "flex lg:px-3 py-2 font-bold underline decoration-primary decoration-2 underline-offset-4 hover:text-primary" : "flex lg:px-3 py-2 font-bold hover:text-primary"}
+                    href={item.path}> 
+                    {item.title}</a>
+                  </li>        
+              ))
+          }
+        </ul>
+     </header>
+</Container>
